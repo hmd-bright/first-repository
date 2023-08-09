@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="utf-8" />
+            <title> this1 </title>
+        </head>
+        <body>
+            <h3> this teach : </h3>
+            <p id="in"></p>
+            <p id="in2"></p>
+            <script type="text/javascript">
+                var person = {
+                    firstName:"Mohammad",
+                    lastName:"Hosyni",
+                    ID:"1234567890",
+                    fullName: function() {
+                        /*return person.firstName + " " + person.lastName;*/
+                          return this.firstName + " " + this.lastName;
+                    }
+                };
+                document.getElementById("in").innerHTML = person.fullName();
+                document.getElementById("in2").innerHTML = person.ID;
+            </script>
+        </body>
+</html>
