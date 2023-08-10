@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> event A </title>
+        <style>
+            div {
+                border: 2px solid red;
+                margin: 10px;
+                display: inline-block;
+                width: 200px;
+                height: 200;
+                line-height: 2-7em;
+                font-size: 70px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="1">1</div>
+        <div id="2">2</div>
+        <div id="3">3</div>
+        <div id="4">4</div>
+        <div id="5">5</div>
+        <div id="6">6</div>
+        <button onclick="myF1()">click</button>
+        <script>
+            function myF1() {
+                document.getElementById("4").style.display = "none";
+            }
+        </script>
+    </body>
+</html>
