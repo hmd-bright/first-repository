@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="utf-8" />
+            <title> DTBL </title>
+				
+			<script src="https://code.jquery.com/jquery-3.7.0.min.js" type ="text/javascript"></script>   <!-- این خط برای صدا کردن جی کویری -->
+			
+			<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" type="text/javascript"></script>   <!-- این خط برای صدا کردن پلاگین دیتا تیبل از نوع جاوا اسکریپت -->
+			
+			<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />    <!-- برای صدا کردن پلاگین دیتا تیبل از نوع سی اس اس -->									 
+			
+        </head>
+		<!-- <body dir="rtl"> -->
+		<body>
+			<table id="datatable" class="cell-border" style="width:100%">
+			
+				<thead>
+					<tr>
+						<th> course name </th>
+						<th> instruction code </th>
+						<th> Name </th>
+						<th> course name </th>
+						<th> instruction code </th>
+						<th> Name </th>
+					</tr>
+				</thead>
+				
+				<tbody>
+				
+					<tr>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+					<tr>
+						<td> course2 </td>
+						<td> 222654321 </td>
+						<td> manage22 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+								<tr>
+						<td> course3 </td>
+						<td> 333233445 </td>
+						<td> manage33 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+					<tr>
+						<td> course4 </td>
+						<td> 444654321 </td>
+						<td> manage44 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+								<tr>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+					<tr>
+						<td> course2 </td>
+						<td> 222654321 </td>
+						<td> manage22 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+								<tr>
+						<td> course3 </td>
+						<td> 333233445 </td>
+						<td> manage33 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+					<tr>
+						<td> course4 </td>
+						<td> 444654321 </td>
+						<td> manage44 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+					<tr>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+					<tr>
+						<td> course2 </td>
+						<td> 222654321 </td>
+						<td> manage22 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+								<tr>
+						<td> course3 </td>
+						<td> 333233445 </td>
+						<td> manage33 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+					<tr>
+						<td> course4 </td>
+						<td> 444654321 </td>
+						<td> manage44 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+								<tr>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+					<tr>
+						<td> course2 </td>
+						<td> 222654321 </td>
+						<td> manage22 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+								<tr>
+						<td> course3 </td>
+						<td> 333233445 </td>
+						<td> manage33 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+					<tr>
+						<td> course4 </td>
+						<td> 444654321 </td>
+						<td> manage44 </td>
+						<td> course1 </td>
+						<td> 111556789 </td>
+						<td> manage11 </td>
+					</tr>
+
+				</tbody>
+			</table>
+			
+			<script type="text/javascript">     <!-- این برای اجرای پلاگین دیتا تیبل روی جدول داخل اچ تی ام ال می باشد -->
+				new DataTable('#datatable');
+				$(document).ready(function () {
+
+					$('#datatable').dataTable(
+					{});
+				});
+			</script>
+		</body>
+</html>
